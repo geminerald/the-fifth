@@ -1,21 +1,35 @@
-*{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 /*-----------------------------------------------------Nav*/
 
-
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
     background-color: #5d5c61;
-    font-family: 'Poppins', sans-serif;
+    
+    position: fixed;
+    width: 100%;
+}
+
+#logo {
+    font-family: 'Playfair Display', serif;
+    color: #fafafa;
     position:fixed;
-    width:100%;
+    left:50%;
+    right:50%;
+    top:5px;
+    font-size: 5vh;
+    
 }
 
 .logo {
@@ -24,22 +38,22 @@ nav{
     letter-spacing: 5px;
     font-size: 20px;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 
 }
 
-.nav-links{
+.nav-links {
     display: flex;
-    width:30%;
+    width: 30%;
     justify-content: space-around;
 
 }
 
-.nav-links li{
+.nav-links li {
     list-style: none;
 }
 
-.nav-links a{
+.nav-links a {
     color: #fafafa;
     text-decoration: none;
     letter-spacing: 3px;
@@ -48,12 +62,12 @@ nav{
 
 }
 
-.burger{
+.burger {
     display: none;
     cursor: pointer;
 }
 
-.burger div{
+.burger div {
     width: 25px;
     height: 3px;
     background-color: #fafafa;
@@ -61,96 +75,107 @@ nav{
     transition: all 0.3s ease;
 
 }
-
-@media screen and (max-width:1068px){
-    .nav-links{
+/*
+@media screen and (max-width:1500px) {
+    .nav-links {
         width: 50%;
+        position:relative;
+        right:0px;
     }
 }
-@media screen and (max-width:768px){
-body{
-    overflow-x: hidden;
-}
+*/
+@media screen and (max-width:1500px) {
+    body {
+        overflow-x: hidden;
+    }
 
-    .nav-links{
-        position: absolute;;
-        right:0px;
-        height:92vh;
+    .nav-links {
+        position: absolute;
+        ;
+        right: 0px;
+        height: 92vh;
         top: 8vh;
         background-color: #5d5c61;
-        display:flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
         width: 75%;
-        transform:translateX(100%);
+        transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
-    .nav-links li{
+    .nav-links li {
         opacity: 0;
     }
-    .burger{
+    .burger {
         display: block;
     }
 }
 
-.nav-active{
-    transform:translateX(0%);
+.nav-active {
+    transform: translateX(0%);
 }
 
-@keyframes navLinkFade{
-    from{
+@keyframes navLinkFade {
+    from {
         opacity: 0;
-        transform:translateX(50px);
+        transform: translateX(50px);
     }
-    to{
+    to {
         opacity: 1;
-        transform:translateX(0px);
+        transform: translateX(0px);
     }
 }
 
-.toggle .line1{
-    transform:rotate(-45deg) translate(-5px, 6px);
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
 }
-.toggle .line2{
+
+.toggle .line2 {
     opacity: 0;
 }
-.toggle .line3{
-    transform:rotate(45deg) translate(-5px, -6px);
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
 }
+
 /*-------------------------------------------------------------Nav*/
+
 /*-------------------------------------------------------------Section*/
-section{
+
+section {
     background-color: lightblue;
     height: 80vh;
-    width:80%;
-    margin:auto;
-    display:flex;
+    width: 80%;
+    margin: auto;
+    display: flex;
     position: static;
-    justify-content:center;
-    
-    
+    justify-content: center;
+
+
 }
 
-.container{
+.container {
     display: flex;
-    flex-direction:column;
-    justify-content:space-around;
-    align-items:center;
-    border:5px solid black;
-    
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid black;
+
 }
 
 /*-------------------------------------------------------------Section*/
+
 /*-------------------------------------------------------------Footer*/
-footer{
+
+footer {
     background-color: red;
     height: 50px;
-    display:flex;
-    justify-content:flex-end;
-    position:relative;
-    bottom:0;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 0;
     width: 80%;
-    margin:auto;
-    
+    margin: auto;
 }
+
 /*-------------------------------------------------------------Footer*/
