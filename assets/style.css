@@ -75,15 +75,7 @@ nav {
     transition: all 0.3s ease;
 
 }
-/*
-@media screen and (max-width:1500px) {
-    .nav-links {
-        width: 50%;
-        position:relative;
-        right:0px;
-    }
-}
-*/
+
 @media screen and (max-width:1500px) {
     body {
         overflow-x: hidden;
@@ -168,11 +160,11 @@ section {
 /*-------------------------------------------------------------Footer*/
 
 footer {
-    background-color: red;
+    background-color: #5d5c61;
     height: 50px;
     display: flex;
     justify-content: flex-end;
-    position: relative;
+    position: sticky;
     bottom: 0;
     width: 80%;
     margin: auto;
