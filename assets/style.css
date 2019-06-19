@@ -28,7 +28,6 @@ nav {
     right: 50%;
     top: 5px;
     font-size: 5vh;
-    background-color: #5d5c61;
 
 }
 
@@ -181,6 +180,10 @@ section {
 
 /*-------------------------------------------------------------Maps*/
 
+.maps-container{
+    position: relative;
+}
+
 .maps-container h1 {
     text-align: center;
     margin: 20px;
@@ -192,6 +195,25 @@ section {
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
+}
+
+
+#vale-map{
+    position: sticky;
+    top:0;
+    z-index: 0;
+}
+
+#captured-map{
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+#brindol-map{
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 .map-card:hover {
@@ -255,16 +277,16 @@ section {
     margin:10px;
 }
 .chapter-card{
-    
+    border: 2px solid white;
 }
 
 /*-------------------------------------------------------------Chronicles*/
 /*-------------------------------------------------------------Footer*/
 
 footer {
+    display: none;
     background-color: #5d5c61;
     height: 50px;
-    margin: auto;
 }
 
 /*-------------------------------------------------------------Footer*/
