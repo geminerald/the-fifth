@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    color:#5d5c61;
+    color: #5d5c61;
 }
 
 /*-----------------------------------------------------Nav*/
@@ -93,6 +93,7 @@ nav {
         width: 75%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        z-index: 5;
     }
     .nav-links li {
         opacity: 0;
@@ -180,7 +181,8 @@ section {
 
 /*-------------------------------------------------------------Maps*/
 
-.maps-container{
+.maps-container {
+    position: absolute;
 }
 
 .maps-container h1 {
@@ -190,28 +192,28 @@ section {
 }
 
 .map-card {
+    position: sticky;
+    top: 8%;
     padding: 20px;
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
+    background-color: #fafafa;
 }
 
 
-#vale-map{
-    position: sticky;
-    top:0;
+#vale-map {
+
     z-index: 0;
 }
 
-#captured-map{
-    position: sticky;
-    top:0;
+#captured-map {
+
     z-index: 1;
 }
 
-#brindol-map{
-    position: sticky;
-    top: 0;
+#brindol-map {
+
     z-index: 2;
 }
 
@@ -247,8 +249,10 @@ section {
 }
 
 /*-------------------------------------------------------------Factions*/
+
 /*-------------------------------------------------------------Chronicles*/
-.chronicles-container{
+
+.chronicles-container {
     /*
     
     width: 100%;
@@ -263,23 +267,26 @@ section {
     height: 100vh;
     width: 90%;
     display: flex;
-    justify-content:space-around;
-    flex-flow:row wrap;
+    justify-content: space-around;
+    flex-flow: row wrap;
 }
 
 
-.chapter{
+.chapter {
     width: 100px;
     border: 5px solid black;
-    height: 100px;
-    padding:10px;
-    margin:10px;
+    min-height: 100px;
+    padding: 10px;
+    margin: 10px;
 }
-.chapter-card{
+
+.chapter-card {
     border: 2px solid white;
+    width: 100%;
 }
 
 /*-------------------------------------------------------------Chronicles*/
+
 /*-------------------------------------------------------------Footer*/
 
 footer {
