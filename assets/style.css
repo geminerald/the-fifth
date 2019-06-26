@@ -167,41 +167,44 @@ section {
 .profile-card-container {
     min-width: 200px;
     min-height: 300px;
-    padding: 20px;
-    margin: 20px;
+    margin:20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s ease-in;
-    transition: tranform 1s ease-in-out;
 }
 
 .profile-card {
-    height: 100%;
-    width: 100%;
+    min-width: 200px;
+    min-height: 300px;
+    margin: 20px;
     transition: transform 1s ease-in;
     transform-style: preserve-3d;
 }
 
 .profile-card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+
     transform: rotateY(180deg);
+    position: relative;
+}
+
+.profile-card-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    transition:0.3s ease-in;
 }
 
 .profile-card figure {
     width: 100%;
     height: 100%;
     position: absolute;
+    margin: auto;
 }
 
-.profile-card:hover .front img {
-}
+.profile-card figure img {}
 
 .profile-card .back {
-    background: #379683;
+    padding: 0;
+    background: #fafafa;
     transform: rotateY(180deg);
-    color: #fafafa;
     z-index: 2;
-    height:100%;
-    width: 100%;
+
 }
 
 
