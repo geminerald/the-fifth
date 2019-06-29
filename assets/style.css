@@ -131,6 +131,23 @@ nav {
 
 /*-------------------------------------------------------------Nav*/
 
+/*-------------------------------------------------------------Home*/
+.intro{
+    display: flex;
+    align-items:center;
+    flex-flow:column wrap;
+    justify-content:center;
+    margin:20px auto;
+}
+
+ h1,h2{
+    text-align: center;
+}
+.intro h1{
+    font-size: 30px;
+}
+/*-------------------------------------------------------------Home*/
+
 /*-------------------------------------------------------------Section*/
 
 section {
