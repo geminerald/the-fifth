@@ -23,7 +23,6 @@ nav {
 #logo {
     font-family: 'Playfair Display', serif;
     color: #fafafa;
-    position: fixed;
     left: 50%;
     right: 50%;
     top: 5px;
@@ -220,6 +219,7 @@ section {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     background-color: #fafafa;
+    margin-top: 30px;
 }
 
 
