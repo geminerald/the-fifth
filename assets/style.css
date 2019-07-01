@@ -296,8 +296,8 @@ section {
 /*-------------------------------------------------------------Chronicles*/
 
 .chronicles-container {
-    
-    background: url("./images/chronicles/chronicles-background.jpeg");
+
+    background-image: url("../images/chronicles/chronicles-background.jpeg");
     opacity: 0.7;
     color: #fafafa;
     position: absolute;
@@ -321,7 +321,7 @@ section {
 }
 
 .chapter-card {
-    
+
     width: 100%;
     text-align: center;
 }
