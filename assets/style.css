@@ -185,11 +185,12 @@ section {
 
 .profile-card-container {
     min-width: 250px;
-    min-height: 350px;
+    min-height: 370px;
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: transform 1s ease-in;
     transform-style: preserve-3d;
+    position:relative;
 }
 
 .profile-card {
@@ -207,14 +208,18 @@ section {
     width: 200px;
     height: 300px;
     position: absolute;
-    background-color: #fafafa;
+    margin-top: 20px;
 
 }
-
+.profile-card .front{
+    background-color: #fafafa;
+}
 .profile-card .back {
+    background-color: #fafafa;
     padding: 0;
     transform: rotateY(180deg);
     z-index: 2;
+    min-height: 335px;
 }
 
 
