@@ -249,6 +249,11 @@ section {
     margin-top: 30px;
 }
 
+.map-header, .map-text{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
 
 #vale-map {
 
