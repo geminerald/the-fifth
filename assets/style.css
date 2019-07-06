@@ -236,6 +236,16 @@ align-items:center;
 flex-direction:column;
 }
 
+.character-button{
+    height:40px;
+    width:100px;
+    background-color: #5d5c61;
+    border-radius: 7px;
+    color:#fafafa;
+    
+    
+}
+
 
 /*-------------------------------------------------------------Cards*/
 
