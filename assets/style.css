@@ -214,6 +214,7 @@ section {
 }
 .profile-card .front{
     background-color: #fafafa;
+    height:92%;
 }
 .profile-card .back {
     background-color: #fafafa;
@@ -221,11 +222,20 @@ section {
     transform: rotateY(180deg);
     z-index: 2;
     min-height: 335px;
+    height:92%;
 }
 
 .back p{
     margin-left:10px;
 }
+
+.back{
+display:flex;
+justify-content:space-around;
+align-items:center;
+flex-direction:column;
+}
+
 
 /*-------------------------------------------------------------Cards*/
 
