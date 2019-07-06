@@ -181,6 +181,7 @@ section {
     align-items: center;
     justify-content: space-around;
     flex-flow: row wrap;
+    margin:auto;
 }
 
 .profile-card-container {
@@ -222,7 +223,9 @@ section {
     min-height: 335px;
 }
 
-
+.back p{
+    margin-left:10px;
+}
 
 /*-------------------------------------------------------------Cards*/
 
@@ -240,13 +243,12 @@ section {
 
 .map-card {
     position: sticky;
-    top: 8%;
+    top: 0%;
     padding: 20px;
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     background-color: #fafafa;
-    margin-top: 30px;
 }
 
 .map-header, .map-text{
