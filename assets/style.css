@@ -160,8 +160,6 @@ section {
     margin: auto;
     display: flex;
     justify-content: center;
-
-
 }
 
 .container {
@@ -181,17 +179,17 @@ section {
     align-items: center;
     justify-content: space-around;
     flex-flow: row wrap;
-    margin:auto;
+    margin: auto;
 }
 
 .profile-card-container {
     min-width: 250px;
-    min-height: 370px;
+    min-height: 375px;
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: transform 1s ease-in;
     transform-style: preserve-3d;
-    position:relative;
+    position: relative;
 }
 
 .profile-card {
@@ -212,38 +210,40 @@ section {
     margin-top: 20px;
 
 }
-.profile-card .front{
+
+.profile-card .front {
     background-color: #fafafa;
-    height:92%;
+    height: 92%;
 }
+
 .profile-card .back {
     background-color: #fafafa;
     padding: 0;
     transform: rotateY(180deg);
     z-index: 2;
     min-height: 335px;
-    height:92%;
+    height: 92%;
 }
 
-.back p{
-    margin-left:10px;
+.back p {
+    margin-left: 10px;
 }
 
-.back{
-display:flex;
-justify-content:space-around;
-align-items:center;
-flex-direction:column;
+.back {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
 
-.character-button{
-    height:40px;
-    width:100px;
+.character-button {
+    height: 40px;
+    width: 100px;
     background-color: #5d5c61;
     border-radius: 7px;
-    color:#fafafa;
+    color: #fafafa;
     cursor: pointer;
-    
+
 }
 
 
@@ -271,7 +271,8 @@ flex-direction:column;
     background-color: #fafafa;
 }
 
-.map-header, .map-text{
+.map-header,
+.map-text {
     margin-top: 5px;
     margin-bottom: 10px;
 }
@@ -322,7 +323,7 @@ flex-direction:column;
 }
 
 .faction-card img {
-/*
+    /*
     height: 320px;
     width:250px;
 */
