@@ -244,9 +244,10 @@ section {
     color: #fafafa;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition:0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
-.character-button:hover{
+
+.character-button:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
